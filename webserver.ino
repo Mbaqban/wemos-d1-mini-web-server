@@ -2,8 +2,8 @@
 #include "ESP8266WebServer.h"
 #include<string>  
 ESP8266WebServer server(80);
-const char* ssid = "@MBAQBAN";
-const char* password = "392417680:AAHGxa8AvSfyHVQ1gCmfTMOw6kXMB5wqu292";
+const char* ssid = "@MBAQBAN"; // name of a modem localnetwork
+const char* password = "392417680:AAHGxa8AvSfyHVQ1gCmfTMOw6kXMB5wqu292";  // password of that local network
 void setup() {
 
   Serial.begin(115200);
